@@ -1,54 +1,92 @@
-1. Portfolio only with html : https://roadmap.sh/projects/basic-html-website
-2 .Basic Portfolio : https://roadmap.sh/projects/portfolio-website
 # Front-end Developer Open Source Project Collection
 
-This project aims to provide a curated list of open-source projects suitable for front-end developers at different skill levels - beginner, intermediate, and advanced.
+## Roadmap.sh Project
+This project is registered on Roadmap.sh as a curated collection of open-source projects for front-end developers.
+- **Main Roadmap.sh Frontend Projects Link**: https://roadmap.sh/frontend/projects
 
 ## Project Overview
+A comprehensive collection of front-end development projects designed to help developers enhance their skills through practical, hands-on experience.
 
-As a front-end developer, it's important to continuously work on personal projects and contribute to open-source initiatives to enhance your skills and build a strong portfolio. This collection of open-source projects covers a wide range of front-end topics, allowing developers to explore, practice, and showcase their talents.
+## Project Categories and Counts
 
-The project is divided into three main sections:
+### 1. Beginner Projects (14 Projects)
+**Total Projects**: 14
+**Focus**: 
+- Fundamental web development concepts
+- Basic HTML, CSS, and JavaScript skills
+- Building foundational front-end skills
 
-1. **Beginner Projects**: These projects are suitable for front-end developers who are just starting out or have limited experience. They focus on teaching fundamental concepts and building simple, but functional, web applications.
+### 2. Intermediate Projects (8 Projects)
+**Total Projects**: 8
+**Focus**:
+- Advanced JavaScript concepts
+- Introduction to frameworks
+- Complex web application development
 
-2. **Intermediate Projects**: These projects are designed for front-end developers who have a solid understanding of front-end technologies and are looking to expand their skills. They cover more complex topics and encourage problem-solving and architectural decision-making.
-
-3. **Advanced Projects**: These projects are intended for experienced front-end developers who want to challenge themselves and contribute to more sophisticated open-source initiatives. They involve working with modern front-end frameworks, libraries, and tools, and often require a deeper understanding of software development practices.
+### 3. Advanced Projects (1 Project)
+**Total Projects**: 1
+**Focus**:
+- Complex application architectures
+- Advanced front-end technologies
+- Cutting-edge development practices
 
 ## Project Structure
-
-The project is organized as follows:
-
 ```
-front-end-developer-open-source-projects/
-├── beginner/
+frontend-developer-projects/
+├── beginner/           # 14 projects
 │   ├── project-1/
 │   ├── project-2/
-│   └── ...
-├── intermediate/
+│   └── ... (up to project-14)
+├── intermediate/       # 8 projects
 │   ├── project-1/
 │   ├── project-2/
-│   └── ...
-└── advanced/
-    ├── project-1/
-    ├── project-2/
-    └── ...
+│   └── ... (up to project-8)
+└── advanced/           # 1 project
+    └── project-1/
 ```
 
-Each project directory contains a README file with detailed instructions on how to set up, run, and contribute to the project. Additionally, the project includes a main README file (this one) that provides an overview of the entire collection.
+## Beginner Projects List (14 Projects)
+1. Portfolio only with html - https://roadmap.sh/projects/basic-html-website
+2. Basic Portfolio - https://roadmap.sh/projects/portfolio-website
+3. Todo List Application
+4. Weather App
+5. Calculator
+6. Responsive Portfolio Website
+7. Image Gallery
+8. Countdown Timer
+9. Rock Paper Scissors Game
+10. Memory Card Game
+11. Expense Tracker
+12. Stopwatch Application
+13. Random Quote Generator
+14. Tip Calculator
+
+## Intermediate Projects List (8 Projects)
+1. Social Media Dashboard
+2. E-commerce Product Page
+3. Task Management System
+4. Real-time Chat Application
+5. Movie Search and Booking App
+6. Personal Finance Tracker
+7. Recipe Finder App
+8. Blog Platform Frontend
+
+## Advanced Project (1 Project)
+1. Complex Web Application with Multiple Features
 
 ## How to Contribute
+1. Fork the repository
+2. Choose the appropriate skill level directory
+3. Create a new project directory
+4. Include a comprehensive README
+5. Ensure your project aligns with the category requirements
+6. Submit a pull request
 
-We welcome contributions from the community! If you have a front-end project that you would like to add to this collection, please follow these steps:
-
-1. Fork the repository.
-2. Create a new directory for your project within the appropriate skill level section (beginner, intermediate, or advanced).
-3. Add a README file to your project directory, following the existing format.
-4. Commit your changes and create a pull request.
-
-We will review your contribution and, if it meets the project's guidelines, we will be happy to merge it into the main repository.
+## Roadmap.sh Learning Path
+- **Complete Frontend Roadmap**: https://roadmap.sh/frontend
 
 ## License
+MIT License
 
-This project is licensed under the [MIT License](LICENSE).
+## Disclaimer
+Projects are designed for learning and skill development. Always ensure proper code usage and attribution.
