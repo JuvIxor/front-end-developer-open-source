@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    position :fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 10%;
+    height: 75px;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    flex-wrap: wrap;
+}
+header h1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #1f0d41;
+    text-align: center;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li{
+    margin-left: 1.5rem;
+}
+header nav ul li a{
+    color: #1f0d41;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul li a:hover{
+    transition: 0.1s;
+    color: rgb(97, 0, 136);
+    border-bottom: 0.2rem solid rgb(97, 0, 136);
+    padding: 0.5rem 0;
+}
+header nav ul li .active{
+    color: #1f0d41;
+    border-bottom: 0.2rem solid rgb(97, 0, 136);
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+.hero-section{
+    display: flex;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Assests/mohammad-rahmani-W-LQbAUhE64-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: aliceblue;
+    padding-top: 250px;
+    width: 100%;
+}
+.hero h2{
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue',sans-serif;
+    letter-spacing: 8px;
+    text-align: center;
+}
+.hero p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: 'Mulish',sans-serif;
+    text-align: center;
+}
+.flex-wrapper{
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+main{
+    height: auto;
+    width: inherit;
+}
+.column{
+    float: left;
+    height: 95;
+    width: 33.33%;
+    padding: 50px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projects  h2,
+.experiance h2,
+.education h2{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.projects img,
+.experiance img,
+.education img{
+    width: 60px;
+    height: auto;
+}
+.projects ul{
+    margin-top: 20px;
+}
+.projects ul li{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    padding-top: 30px;
+}
+.projects ul li i{
+    padding-right: 10px;
+}
+.experiance article{
+    margin-top: 20px;
+}
+.experiance article h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding-top:10px ;
+}
+.experiance article p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.experiance article .button{
+    border: 2px solid #1f0d41;
+    padding: 10px 32px;
+    color: #1f0d41;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.experiance article .button:hover{
+    background-color: #1f0d41;
+    color: white;
+}
+.experiance article h3 i{
+    padding-right: 10px;
+}
+.experiance article p{
+    padding-left: 15px;
+}
+.education p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+}
+.education h3{
+    font-family: 'Roboto',sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.education ul li{
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.education ul li i{
+    padding-right: 10px;
+}
+.review-section{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.reviews{
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+.reviews h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: 'Kanit',sans-serif;
+}
+.reviews .border{
+    padding-left: 39%;
+    padding-top: 10px;
+}
+.reviews .border .underline{
+    width: 35%;
+    height: 1px;
+    background-color: black;
+}
+.reviews .row .column blockquote{
+    border: 2px solid #d8d8d8;
+    padding: 50px 50px 10px 20px;
+    border-radius: 20px;
+    width: 110%;
+}
+.reviews .row .column blockquote p{
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    padding-bottom: 20px;
+}
+.reviews .row .column blockquote .footer{
+    border-top: 1px black solid;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.reviews .row .column blockquote .footer h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Kanit',sans-serif;
+    color: rgb(32, 32, 32);
+    margin-bottom: -20px;
+}
+.reviews .row .column blockquote .footer h4 i{
+    font-size: 1.5rem;
+    border: 2px solid #1f0d41;
+    padding:10px 10px 10px 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: -50px;
+}
+.reviews .row .column blockquote .footer p{
+    font-size: 15px;
+    color: rgb(32, 32, 31);
+    font-family: 'Kanit',sans-serif;
+    padding-left: 50px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 18vh;
+    background-color: #1f0d41;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Responsive layout*/
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    header h1{
+      font-size: 25px;
+    }
+    .hero-section .hero h2{
+      font-size: 4rem;
+    }
+    .hero-section .hero p{
+      font-size: 12px;
+    }
+    .reviews h2{
+      font-size: 32px;
+    }
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem; 
+      height: auto; 
+  }
+  header nav ul li{
+      margin-left: 1rem;
+  }
+  header h1 {
+      margin-bottom: 1rem;
+      text-align: center;  
+  }
+  
+  header nav ul {
+      flex-direction: row;
+  }
+  }
