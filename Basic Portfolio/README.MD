@@ -5,6 +5,10 @@ https://roadmap.sh/projects/portfolio-website
 ## Description
 This is a simple, responsive personal portfolio website designed to showcase professional projects, work experience, education, and contact information. The website provides a clean and modern interface to highlight your skills and achievements.
 
+## Roadmap.sh Project
+This project is registered on Roadmap.sh. You can view the project details here:
+https://roadmap.sh/projects/portfolio-website
+
 ## Features
 - **Responsive Design**: Optimized for desktop and mobile devices
 - **Hero Section**: Prominent introduction with personal title and role
@@ -62,6 +66,5 @@ The website is fully responsive and adapts to different screen sizes, ensuring a
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-Your Name - [Your Email]
-Project Link: [https://github.com/yourusername/portfolio-website](https://github.com/yourusername/portfolio-website)
+## Roadmap.sh Verification
+This README includes the official Roadmap.sh project link to verify the project submission.
