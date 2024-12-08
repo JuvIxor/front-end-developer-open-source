@@ -48,7 +48,7 @@ frontend-developer-projects/
 ## Beginner Projects List (14 Projects)
 1. Portfolio only with html - https://roadmap.sh/projects/basic-html-website
 2. Basic Portfolio - https://roadmap.sh/projects/portfolio-website
-3. Todo List Application
+3. Changelog- https://roadmap.sh/projects/changelog-component
 4. Weather App
 5. Calculator
 6. Responsive Portfolio Website
