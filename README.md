@@ -49,9 +49,9 @@ frontend-developer-projects/
 1. Portfolio only with html - https://roadmap.sh/projects/basic-html-website
 2. Basic Portfolio - https://roadmap.sh/projects/portfolio-website
 3. Changelog- https://roadmap.sh/projects/changelog-component
-4. Weather App
-5. Calculator
-6. Responsive Portfolio Website
+4. single page HTML cv Project - https://roadmap.sh/projects/single-page-cv
+5. Testimonial card
+6. Date picker UI
 7. Image Gallery
 8. Countdown Timer
 9. Rock Paper Scissors Game
