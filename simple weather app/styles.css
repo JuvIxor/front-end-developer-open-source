@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/317/425/216/coast-turquoise-water-beach-palawan-wallpaper-preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 100vh;
+}
+@font-face {
+    font-family: ink-free;
+    src: url('Inkfree.ttf');
+}
+.main-background{
+    position: relative;
+    top: 55px;
+    margin:0 auto;
+    width: 950px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+.bg-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/317/425/216/coast-turquoise-water-beach-palawan-wallpaper-preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+/*Hve to style left bg*/
+.location{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    left: 0%;
+    align-items: center;
+    justify-content: center;
+}
+.location p .location-icon img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+.location p .location-text{
+    font-size: 18px;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-weight: 100;
+    padding-top: 5px;
+}
+.weather-icon{
+    position: relative;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.weather-icon img{
+    height: 100px;
+    width: 100px;
+    border:none;
+}
+.weather-details{
+    position: relative;
+    top: 130px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weather-details .weather-valv{
+    font-family: "Inter",sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.weather-details .description{
+    margin-top: 15px;
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+.weather-bottom-details{
+    position: fixed;
+    top: 79%;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 10px;
+}
+.weather-bottom-details .humudity-value{
+    font-family: "Inter",sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+.weather-bottom-details .temFaranheight{
+    font-family: "Inter",sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+/*Right bg*/
+.bg-right{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background-color: #d9d9d9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.logo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 10%;
+    left: 20%;
+    width: 250px;
+    height: 100px;
+}
+.sun{
+    margin-top: 10px;
+}
+.sun-icon{
+    height: 40px;
+    width: 40px;
+}
+.text{
+    padding-left:15px ;    
+}
+.text h1{
+    font-family: "Inria Serif", serif;
+    font-size: 30px;
+    color:black;
+}
+.text p{
+    font-family: ink-free,sans-serif;
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+}
+
+.searchbar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    left: 20%;
+}
+.searchInput{
+    position: relative;
+    font-family: "Inter",sans-serif;
+    font-style: italic;
+    width:300px;
+    height:40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.button{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-color 0.3s ease-in-out;
+}
+.submitBtn{
+    position: relative;
+    top: 0;
+    left: -15%;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius:20px;
+    background-color: #000000;
+    color: white;
+    font-family: "Inter",sans-serif;
+    text-transform: uppercase;
+    font-weight: light;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
+.submitBtn span img{
+    height: 20px;
+    width: 20px;
+    margin-left: -10px;
+}
+.submitBtn .btn-text{
+    padding-top: -20px;
+    margin-left: 10px;
+}
+.submitBtn:hover{
+    background-color: #000000;
+    transform: scale(1.01);
+    transition: background-color transform 0.3s ease-in-out;
+}
+.submitBtn:active{
+    transform: scale(0.99);
+}
+.devider{
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    left: 0;
+    width: 90%;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+.search-history{
+    position: relative;
+    top: 60px;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    width: auto;
+}
+.search-history ul li{
+    list-style-image: url('./search-black.png');
+    padding-left: 30px;
+    font-family: "Inter",sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.clearbtn{
+    position: relative;
+    top: 0;
+    left: -15%;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius:20px;
+    background-color: #c5c1c5;
+    color: rgb(0, 0, 0);
+    font-family: "Inter",sans-serif;
+    text-transform: uppercase;
+    font-weight: light;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
