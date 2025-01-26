@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="main-background">
+            <div class="bg-left">
+
+                <div class="location">
+                    <p>
+                        <span class="location-icon"><img src="./location_on.png" alt="location icon"></span>
+                        <span id="city-name" class="location-text"></span>
+                    </p>
+                </div>
+
+                <div class="weather-icon" id="weather-result-icon">
+                    <img src="" alt="">
+                </div>
+
+                <div class="weather-details">
+                    <p id="weather-value" class="weather-valv"></p>
+                    <p id="weather-description" class="description"></p>
+                </div>
+                <div class="weather-bottom-details">
+                    <p class="humudity-value">Humidity : <strong id="Humidity"></strong></p>
+                    <p class="temFaranheight">Temperature in Faranheight : <strong id="tempFaranheit"></strong> </p>
+                </div>
+            </div>
+            <div class="bg-right">
+                <div class="logo">
+                    <div class="sun">
+                        <img class="sun-icon" src="Sun.png" alt="sun icon">
+                    </div>
+                    <div class="text">
+                        <h1>Weather App</h1>
+                        <p>By SanjunaDev</p>
+                    </div>
+                </div>
+
+                <div class="searchbar">
+                    <input class="searchInput" type="text" name="text" id="locationInput" placeholder="Enter Location">
+                    <div class="button">
+                        <button class="submitBtn" type="submit" id="searchBtn">
+                            <span><img src="./search.png" alt="search icon"></span>
+                            <soan class="btn-text">Search</soan>
+                        </button>
+                        <button class="clearbtn" onclick="clearHistory()">Clear History</button>
+                    </div>
+                </div>
+
+                <div class="devider"></div>
+
+                <div class="search-history">
+                    <ul id="search-history"></ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
